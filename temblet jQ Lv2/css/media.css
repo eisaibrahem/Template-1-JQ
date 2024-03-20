@@ -1,0 +1,132 @@
+/* Smallest Screen Like Smart Watches*/
+@media (max-width : 480px) {}
+
+
+
+/* mobile and tablet Screen  */
+@media (max-width : 767px) {
+
+    .container {
+        width: 100%;
+    }
+
+    .visable-xs {
+        display: block !important;
+    }
+
+    .hide-xs {
+        display: none !important;
+    }
+
+    .testimonias h3 {
+        top: 50px;
+        font-size: 22px;
+        width: 350px;
+        text-align: center;
+    }
+
+    .testimonias .slider p {
+        width: 360px;
+        font-size: 16px;
+    }
+
+    .footer .content {
+        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+        align-items: center;
+        margin: 0 auto;
+        gap: 30px;
+
+    }
+
+    .recent-posts .post {
+
+        justify-content: space-between;
+        margin-right: 10px;
+    }
+
+    .recent-posts .post h3 {
+
+        font-size: 16px
+    }
+
+    .recent-posts .post img {
+        width: 150px;
+
+    }
+}
+
+
+
+/* Samall Screen */
+@media (min-width : 768px) {
+    .container {
+        width: 750px;
+    }
+
+
+
+    .visable-sm {
+        display: hide;
+    }
+
+
+
+}
+
+.hide-sm {
+    display: none !important;
+}
+
+
+/* Medium Screen */
+@media (min-width : 992px) {
+    .container {
+        width: 970px;
+    }
+
+    .visable-md {
+        display: block !important;
+    }
+
+    .hide-md {
+        display: none !important;
+    }
+
+
+
+    .our-team {
+        flex-direction: row !important;
+    }
+
+    .our-team .info {
+        text-align: start;
+    }
+
+    .our-team .info p {
+        text-align: start !important;
+        width: 450px !important;
+    }
+
+}
+
+/* Larg Screen */
+@media (min-width : 1200px) {
+    .container {
+        width: 1170px;
+    }
+
+    .visable-lg {
+        display: block !important;
+    }
+
+    .hide-lg {
+        display: none !important;
+    }
+
+
+}
+
+
+
+/* custom Screen */
+@media (min-width : 654px)And(max-width : 987px) {}
